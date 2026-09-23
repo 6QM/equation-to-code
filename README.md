@@ -84,7 +84,14 @@ Use only the pieces the question requires. A concise, verified investigation is 
 
 ## Status
 
-The repository begins as a scaffold. Investigations will be added incrementally, and its structure may evolve as the work reveals better ways to connect history, theory, experiments, and code.
+The first runnable investigation is available: [How long does a hot sphere take to cool?](questions/how-long-does-a-hot-sphere-take-to-cool/). Its Chinese-language Jupyter Notebook starts with a working heat-transfer model, then unpacks the physics, equations, Euler approximation, and verification.
+
+## Start learning · 从这里开始
+
+- [第一课 Notebook](questions/how-long-does-a-hot-sphere-take-to-cool/experiment.ipynb)：先运行、改参数，再理解方程与代码。
+- [安装与运行](questions/how-long-does-a-hot-sphere-take-to-cool/README.md)：Python + Jupyter，无需 Class、PyTorch 或 TensorFlow。
+- [传热学 → 数值方法学习路线](maps/heat-transfer-learning-path.md)：围绕具体问题采用 top-down 学法。
+- [两本主教材与引用约定](references/core-textbooks.md)：以 Fundamentals of Heat and Mass Transfer 与 Numerical Methods for Engineers 为主线，版次待确认。
 
 ## License
 
